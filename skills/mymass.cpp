@@ -85,7 +85,7 @@ int &mymas::operator[](int index) {
 
 mymas mymas::operator+(const int a)
  {
-     *array=*((int*)realloc((void*)(*array),sizeof(int)*(size+1)));//ÑÐ»Ð¾Ð¶Ð½Ð°Ñ ÑÑ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð° Ñ€ÐµÐ»Ð¾ÐºÐ°Ñ†Ð¸Ð¸ Ð¿Ð°Ð¼ÑÑ‚Ð¸, Ð½Ð¾ Ð¾Ð½Ð° Ð½ÑƒÐ¶Ð½Ð°.
+     *array=*((int*)realloc((void*)(*array),sizeof(int)*(size+1)));
      size=size+1;
      array[size]=a;
 
