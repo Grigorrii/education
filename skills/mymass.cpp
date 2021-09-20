@@ -70,6 +70,11 @@ int &mymas::operator[](int index) {
   }
   return array[index]; // returned as a reference
 }
+ void summ( mymas &  ){
+   int dlina;
+   if( size>=)
+     dlina=;
+
 
 
  ostream& operator<<(ostream& output, const mymas& rhs){
